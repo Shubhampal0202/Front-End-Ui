@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgImage{
+    background-image: url(images/bgimg.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100px;
+}
+.leftmenu{
+    width: 22%;
+    float: left;
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    /* background-color: yellow; */
+}
+
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    /* background-color: red; */
+}
+
+.rightmenu ul{
+    margin-left: 200px;
+}
+
+.rightmenu ul li{
+    display: inline-block;
+    list-style-type: none;
+    line-height: 100px;
+    margin-left: 55px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#firstlist{
+    color: orange;
+}
+
+.rightmenu ul li:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.text{
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+.text h4{
+    color: orange;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.text h1{
+    margin: 12px 0px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text h3{
+  color: orange;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 12px;
+}
+
+#btn1{
+    padding: 8px;
+    width: 130px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: lightgreen;
+}
+
+#btn2{
+    padding: 8px;
+    width: 130px;
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.3);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+#btn2:hover{
+    background-color: lightgreen;
+}
